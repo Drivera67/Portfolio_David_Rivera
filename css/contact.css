@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.contact{
+    background-image: url("../img/Contact_portfolio.png");
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+html{
+    cursor: none;
+
+}
+
+h1{
+    padding-top: 10%;
+    font-size: 7em;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+header img{
+    width: 40px;
+    position: absolute;
+    right: 80px;
+    top: 30px;
+    transition: transform .4s ease-in-out;
+}
+
+header img:hover {
+    transform:rotate(180deg);
+}
+
+p{
+    color: white;
+    font-family: Poppins;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    vertical-align: center;
+    padding: 8px;
+}
+
+.logo_reseaux{
+    text-align: center;
+    vertical-align: center;
+}
+
+.logo_reseaux img{
+    width: 50px;
+    transition: all .15s ease-out;
+}
+
+.logo_reseaux img:hover{
+    width: 60px;
+}
+
+
+.logo_reseaux img:last-child{
+    padding-left: 1%;
+}
+
+.bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+
+@keyframes bubble {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    100%{
+        transform: translateY(-90vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 5s;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 6s;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 7s;
+}
+.bubbles img:nth-child(8){
+    animation-delay: 4s;
+}
+.bubbles img:nth-child(9){
+    animation-delay: 8s;
+}
+.bubbles img:nth-child(10){
+    animation-delay: 6s;
+}
+.bubbles img:nth-child(11){
+    animation-delay: 2.5s;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 3px solid white;
+    border-radius: 50%;
+    pointer-events: none;
+}
+

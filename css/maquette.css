@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+header h1{
+    color: white;
+    font-size: 7em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.art{
+    background-image: url("../img/Photo_Casa_Mila.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.travis{
+    background-image: url("../img/Travis_Scott.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ney{
+    background-image: url("../img/Photo_Ney.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body{
+    margin: 0;
+    margin-top: -80px;
+}
+
+header img{
+    width: 40px;
+    position: absolute;
+    right: 80px;
+    top: 30px;
+}
+
+h3{
+    font-family: Poppins;
+}
+
+p{
+    font-family: Poppins;
+
+}
+
+.info h3{
+    border-bottom: 2px solid black;
+    display: inline;
+    position: relative;
+}
+
+.info p{
+    position: relative;
+}
+
+.info{
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-bottom: 60px;
+}
+
+.maquette h3, .maquette_2 h3, .maquette_3 h3{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-top: 10vh;
+    width: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maquette{
+    background-color: #A79A78;
+}
+
+.maquette_2{
+    background-color: #E2B679;
+}
+
+.maquette_3{
+    background-color: #282828;
+}
+
+.maquette img, .maquette_2 img, .maquette_3 img{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    box-shadow: 5px 0px 50px black;
+}
+
+.maquette p, .maquette_2 p, .maquette_3 p{
+    text-align: center;
+
+}
+
+.maquette a, .maquette_2 a, .maquette_3 a{
+    font-family: Poppins;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border: 2px solid white;
+    background-color: white;
+    width: 250px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+header img{
+    transition: transform .4s ease-in-out;
+
+}
+header img:hover {
+    transform:rotate(180deg);
+}

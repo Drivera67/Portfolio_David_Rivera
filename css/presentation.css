@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.mini{
+    background-image: url("../img/Photo_Casa_Mila.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.S2{
+    background-image: url("../img/Travis_Scott.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.S3{
+    background-image: url("../img/Photo_Ney.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 6em;
+    padding: 70px;
+}
+
+
+
+
+.intercation p{
+    display: inline-block;
+    color: white;
+    font-family: Poppins;
+    margin-left: 80px;
+    border-bottom: 2px solid;
+    font-size: 1.25em;
+}
+
+.intercation a{
+    float: right;
+    margin-right: 80px;
+    color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    display: inline-block;
+    font-family: Poppins;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.intercation{
+    display: inline;
+}
+
+.F1{
+    margin-left: 80px;
+}
+.F2{
+    float: right;
+    margin-right: 80px;
+}
+
+.fleches{
+    padding-bottom: 13%;
+
+}
+.fleches img{
+    width: 40px;
+}
+
+.F1 img{
+    position: relative;
+}
+.F2 img{
+    position: relative;
+}
+
+h1 span{
+    position: relative;
+}
+
+.F1 img:hover{
+    animation: fleche1 0.8s ease-in infinite;
+}
+
+@keyframes fleche1 {
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: -8px;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+.F2 img:hover{
+    animation: fleche2 0.8s ease-in infinite;
+}
+
+@keyframes fleche2 {
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 8px;
+    }
+    100%{
+        left: 0;
+    }
+}
+
