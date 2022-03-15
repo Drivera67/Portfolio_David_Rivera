@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74d3a674-3155-4390-b2f5-d704ae7e6dfa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/accueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/accueil.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <workItem from="1646033097578" duration="25497000" />
       <workItem from="1646665990847" duration="1901000" />
       <workItem from="1647193386892" duration="736000" />
-      <workItem from="1647250498155" duration="31939000" />
+      <workItem from="1647250498155" duration="32483000" />
     </task>
     <task id="LOCAL-00001" summary="Changement presentation.css">
       <created>1647359899218</created>
@@ -67,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647359899219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changement de la taille de la police h1">
+      <created>1647360028074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647360028074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,17 +81,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changement presentation.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changement presentation.css" />
+    <MESSAGE value="Changement de la taille de la police h1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changement de la taille de la police h1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="536" y="165" key="#SSH_Configurations" timestamp="1647359054008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="536" y="165" key="#SSH_Configurations/0.0.1920.1040@0.0.1920.1040" timestamp="1647359054008" />
-    <state x="569" y="88" key="CommitChangelistDialog2" timestamp="1647359897960">
+    <state x="569" y="88" key="CommitChangelistDialog2" timestamp="1647360026911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="569" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1647359897960" />
+    <state x="569" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1647360026911" />
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1647335008926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
